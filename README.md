@@ -6,20 +6,20 @@ Este módulo de Odoo 16 facilita la integración de imágenes a los productos ut
 ## Para que se va a usar
 El proyecto consiste en un modulo de odoo16 al que se le implementara Google api “Custom Search” para traer imágenes de Google usando el código de barras de los productos.Esto con la finalidad de ayudar a que el departamento de almacén minimice tiempos y agilice procesos de registros de productos, haciendo automático el proceso de la carga de elementos multimedia.
 
-## Requisitos
+## Requisitos de odoo
 
 Los requerimientos para realizar el proyecto es primeramente de la parte de odoo, se deben de instalar unos cuantos modulos:
-* 1.- Modulo de inventario: Se necesita crear este modulo para heredar de el el modelo de product.template para poder usar elementos de la plantilla de productos,vistas,clases, ids y demas elementos de los que dispone el modelo. Este ademas de instalarlo en la interface de odoo se tiene que agregar como dependencia en el manifest.
+* Modulo de inventario: Se necesita crear este modulo para heredar de el el modelo de product.template para poder usar elementos de la plantilla de productos,vistas,clases, ids y demas elementos de los que dispone el modelo. Este ademas de instalarlo en la interface de odoo se tiene que agregar como dependencia en el manifest.
 
-* 2.- Modulo de venta: Este modulo se necesita para heredar tambien elementos y secciones que se van a necesitar para poder agregar imagenes en el apartado de imagenes adicionales del producto.
+* Modulo de venta: Este modulo se necesita para heredar tambien elementos y secciones que se van a necesitar para poder agregar imagenes en el apartado de imagenes adicionales del producto.
 
-3.- Modulo de ecomerce: Este modulo es necesario ya que con este los elementos guardados de las imagenes adicionales y demas, se puedan agregar a este modulo para la venta en linea.
+* Modulo de ecomerce: Este modulo es necesario ya que con este los elementos guardados de las imagenes adicionales y demas, se puedan agregar a este modulo para la venta en linea.
 
-4.- Modulo para leer codigos de barra: Ese modulo se necesita para poder leer codigos de barras con un lector. Este ademas de instalarlo en la interface de odoo se tiene que agregar como dependencia en el manifest.
+* Modulo para leer codigos de barra: Ese modulo se necesita para poder leer codigos de barras con un lector. Este ademas de instalarlo en la interface de odoo se tiene que agregar como dependencia en el manifest.
 
-De parte externa:
+## Requisitos externos
 
-1.- Api de google
+* Api de google
 Para la api se tienen que seguir una serie de pasos para poder configurar u obtener la llave los cuales son:
     1.1 Vaya a la página de Google Cloud Platform API & Services para generar credenciales de API para la búsqueda personalizada de Google. Aqui el enlace https://console.developers.google.com/ 
     1.2 Inicie sesión con su cuenta de Google.
@@ -69,5 +69,5 @@ El motor de busqueda cuenta con bastantes parametros que se le pueden configurar
 * Consulta la página Valores de parámetros de país a fin de obtener una lista de valores válidos para este parámetro.
 
 3.- cx: Es el id del motor de busqueda programable
-
+https://developers.google.com/custom-search/v1/reference/rest/v1/cse/list?hl=es-419
 4
