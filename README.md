@@ -27,24 +27,18 @@ Para la api se tienen que seguir una serie de pasos para poder configurar u obte
     1.4 En la sección de credenciales, haga clic en Crear credenciales y seleccione Clave API
 Y listo una vez echo esto deberia de obtener una llave.¡Guardelo!
 
-2.- Buscador de api de google (Custom search)
-Para el buscador se siguen estos pasos: 
-    2.1 Vaya al Motor de Búsqueda Programable de Google y haga clic en Comenzar. Inicie sesión con su cuenta de Google. Aqui el enlace https://programmablesearchengine.google.com/
-    2.2 Seleccione el idioma y el nombre del motor de búsqueda. Nómbrelo con un título específico (por ejemplo, Imágenes de Odoo).
-    2.3 Valide el formulario haciendo clic en Crear, después vaya al modo de edición del motor de búsqueda que creó (haciendo clic en Panel de control en la página de confirmación o en el nombre de su motor de búsqueda en la página de inicio).
-    2.4 En la pestaña de elementos básicos, asegúrese de habilitar la búsqueda de imágenes, SafeSearch y buscar en toda la web.
+* Buscador de api de google (Custom search)
+Para el buscador se siguen estos pasos: Vaya al Motor de Búsqueda Programable de Google y haga clic en Comenzar. Inicie sesión con su cuenta de Google. Seleccione el idioma y el nombre del motor de búsqueda. Nómbrelo con un título específico (por ejemplo, Imágenes de Odoo). Valide el formulario haciendo clic en Crear, después vaya al modo de edición del motor de búsqueda que creó (haciendo clic en Panel de control en la página de confirmación o en el nombre de su motor de búsqueda en la página de inicio). En la pestaña de elementos básicos, asegúrese de habilitar la búsqueda de imágenes, SafeSearch y buscar en toda la web. Este es el enlace para acceder a la web del motor: https://programmablesearchengine.google.com/.
+
 Y listo una vez echo esto deberia de obtener una el id del buscador programable.¡Guardelo!
 
-3.- Python: 
-De python los requerimientos son simplemente librerias que en algunos casos es necesario instalar desde la terminal del proyecto:
-    3.1 requests: para esta libreria debemos de tenerlo importado primeramente en el archivo de modelo python como "import requests" si en dado caso odoo le manda un error que mencione que la libreria no esta instalada, abra una nueva terminal en VSCode y coloque el comando pip install requests y listo
-    3.2 
+
 
 ## Instalación
-1.- Clona o descarga el repositorio del módulo.
-2.- Coloca el directorio del módulo en la ruta de addons de tu instalación de Odoo.
-3.- Reinicia el servidor Odoo.
-4.- Instala el módulo desde la interfaz de administración de Odoo.
+* Clona o descarga el repositorio del módulo.
+* Coloca el directorio del módulo en la ruta de addons de tu instalación de Odoo.
+* Reinicia el servidor Odoo.
+*dz* Instala el módulo desde la interfaz de administración de Odoo.
 
 ## Configuración
 1.- Una vez instalado, dirígete a la configuración de Odoo. Busca el menú de configuración del módulo de imágenes de productos.
@@ -69,5 +63,5 @@ El motor de busqueda cuenta con bastantes parametros que se le pueden configurar
 * Consulta la página Valores de parámetros de país a fin de obtener una lista de valores válidos para este parámetro.
 
 3.- cx: Es el id del motor de busqueda programable
-https://developers.google.com/custom-search/v1/reference/rest/v1/cse/list?hl=es-419
+
 4
