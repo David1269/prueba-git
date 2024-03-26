@@ -38,12 +38,12 @@ Y listo una vez echo esto deberia de obtener una el id del buscador programable.
 * Clona o descarga el repositorio del módulo.
 * Coloca el directorio del módulo en la ruta de addons de tu instalación de Odoo.
 * Reinicia el servidor Odoo.
-*dz* Instala el módulo desde la interfaz de administración de Odoo.
+* Instala el módulo desde la interfaz de administración de Odoo.
 
 ## Configuración
-1.- Una vez instalado, dirígete a la configuración de Odoo. Busca el menú de configuración del módulo de imágenes de productos.
-2.- Completa los parámetros de la API de Google Custom Search, incluyendo la API Key, ID del buscador, número de imágenes a obtener, tipo de archivo y tamaño de imagen.
-Uso
+* Una vez instalado, dirígete a la configuración de Odoo. Busca el menú de configuración del módulo de imágenes de productos.
+* Completa los parámetros de la API de Google Custom Search, incluyendo la API Key, ID del buscador, número de imágenes a obtener, tipo de archivo y tamaño de imagen.
+
 ## Actualización de Imágenes Principales de Productos
 En la vista de productos, se proporciona un botón "Traer imágenes" que permite actualizar la imagen principal de un producto basado en su nombre utilizando la API de Google Custom Search.
 ## Carga de Imágenes Adicionales
@@ -53,15 +53,14 @@ Las imágenes asociadas a los productos se integran automáticamente con el mód
 
 ## PARAMETROS DE CONSULTA DEL MOTOR DE BUSQUEDA
 El motor de busqueda cuenta con bastantes parametros que se le pueden configurar, sin embargo estos se tienen que usar con cautela ya que estos limitan la busqueda de recursos en la web, los parametros son:
-1.- c2coff: Habilita o inhabilita la Búsqueda en chino tradicional y simplificado. El valor predeterminado de este parámetro es 0 (cero), lo que significa que la función está habilitada. Los valores admitidos son los que se detallan a continuación:
+* c2coff: Habilita o inhabilita la Búsqueda en chino tradicional y simplificado. El valor predeterminado de este parámetro es 0 (cero), lo que significa que la función está habilitada. Los valores admitidos son los que se detallan a continuación:
 1: Inhabilitado
 0: Habilitado (predeterminado)
 
-2.- cr: Restringe los resultados de la búsqueda a los documentos que se originan en un país en particular. Puedes usar operadores booleanos en el valor del parámetro cr. Para determinar el país de un documento, la Búsqueda de Google analiza lo siguiente:
-* El dominio de nivel superior (TLD) de la URL del documento
-* la ubicación geográfica de la dirección IP del servidor web
-* Consulta la página Valores de parámetros de país a fin de obtener una lista de valores válidos para este parámetro.
+* cr: Restringe los resultados de la búsqueda a los documentos que se originan en un país en particular. Puedes usar operadores booleanos en el valor del parámetro cr. Para determinar el país de un documento, la Búsqueda de Google analiza lo siguiente:
+- El dominio de nivel superior (TLD) de la URL del documento
+- la ubicación geográfica de la dirección IP del servidor web
+- Consulta la página Valores de parámetros de país a fin de obtener una lista de valores válidos para este parámetro.
 
-3.- cx: Es el id del motor de busqueda programable
+* cx: Es el id del motor de busqueda programable
 
-4
