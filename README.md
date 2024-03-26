@@ -68,3 +68,90 @@ El motor de busqueda cuenta con bastantes parametros que se le pueden configurar
 
 * cx: Es el id del motor de busqueda programable
 
+
+
+* dateRestrict: Restringe los resultados a las URLs según la fecha. Entre los valores admitidos, se incluyen los siguientes:
+
+    - d[number]: Solicita resultados de la cantidad especificada de días anteriores.
+    - w[number]: Solicita resultados de la cantidad especificada de semanas anteriores.
+    - m[number]: Solicita resultados de la cantidad especificada de meses anteriores.
+    - y[number]: Solicita resultados de la cantidad especificada de años anteriores.
+
+* exactTerms: Identifica una frase que deben contener todos los documentos de los resultados de búsqueda.
+
+* excludeTerms: Identifica una palabra o frase que no debería aparecer en ningún documento de los resultados de la búsqueda.
+
+* fileType: Restringe los resultados a los archivos de una extensión especificada. Puedes encontrar una lista de los tipos de archivos indexables por Google en el Centro de ayuda de Search Console.
+
+* filter: Controla la activación o desactivación del filtro de contenido duplicado.De forma predeterminada, Google filtra todos los resultados de la búsqueda para mejorar su calidad. Los valores aceptables son:
+    - 0: Desactiva el filtro de contenido duplicado.
+    - 1: Activa el filtro de contenido duplicado.
+
+* gl: Ubicación geográfica del usuario final. El valor del parámetro gl es un código de país de dos letras. El parámetro gl potencia los resultados de la búsqueda cuyo país de origen coincide con el valor del parámetro. 
+
+* hq: Agrega los términos especificados a la consulta, como si se combinaran con un operador lógico AND.
+
+* imgColorType: Muestra imágenes en blanco y negro, en escala de grises, transparentes o en color. Los valores aceptables son:
+    - "color"
+    - "gray"
+    - "mono": blanco y negro
+    - "trans": fondo transparente
+
+* imgDominantColor: Muestra imágenes de un color dominante específico. Los valores aceptables son:
+    - "black"
+    - "blue"
+    - "white"
+Entre otros
+
+* imgSize: Muestra imágenes de un tamaño especificado. Los valores aceptables son:
+    - "huge": Es el tamaño mas grande soportado
+    - "icon": Tamaño icono
+    - "large": Tamaño Grande
+    - "medium": Mediano
+    - "small": Pequeño
+    - "xlarge": Extra grande
+    - "xxlarge": Mucho mas grande 
+
+* imgType: Muestra imágenes de un tipo. Los valores aceptables son:
+    - "clipart"
+    - "face"
+    - "lineart"
+    - "stock"
+    - "photo"
+    - "animated"
+
+* linkSite: Especifica que todos los resultados de la búsqueda deben contener un vínculo a una URL en particular.
+
+
+* lr: Restringe la búsqueda a los documentos escritos en un idioma en particular (p.ej., lr=lang_ja). Los valores aceptables son:
+
+    - "lang_ar": Árabe
+    - "lang_en": inglés
+    - "lang_es": Español
+    - "lang_fr": Francés
+    - "lang_it": Italiano
+    - "lang_ja": Japonés
+    - "lang_ko": Coreano
+    - "lang_ru": Ruso
+Entre otros
+
+* num:Cantidad de resultados de la búsqueda que se mostrarán. Los valores válidos son números enteros entre 1 y 10, inclusive.
+
+* q: Es lo que se quiere consultar
+
+
+* rights: Filtros basados en licencias. Entre los valores admitidos, se incluyen cc_publicdomain, cc_attribute, cc_sharealike, cc_noncommercial, cc_nonderived y combinaciones de estos. 
+
+* safe: Nivel de seguridad de búsqueda. Los valores aceptables son:
+    - "active": Habilita el filtro SafeSearch.
+    - "off": Inhabilita el filtro SafeSearch. (predeterminado)
+
+* searchType: Especifica el tipo de búsqueda: image. Si no se especifica, los resultados se limitan a páginas web.Los valores aceptables son:
+    - "image": búsqueda con imágenes personalizadas
+* siteSearch: Especifica un sitio determinado que siempre debe incluirse o excluirse de los resultados.
+
+* siteSearchFilter: Controla si se incluyen o se excluyen resultados del sitio que se menciona en el parámetro siteSearch. Los valores aceptables son:
+    - "e": excluir
+    - "i": incluir
+
+* sort: La expresión de orden que se aplica a los resultados. El parámetro ordenar especifica que los resultados se ordenarán de acuerdo con la expresión especificada, es decir, se ordenarán por fecha. Ejemplo: sort=date.
