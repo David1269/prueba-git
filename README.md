@@ -19,16 +19,20 @@ Los requerimientos para realizar el proyecto es primeramente de la parte de odoo
 
 ## Requisitos externos
 
-* Api de google
-Para la api se tienen que seguir una serie de pasos para poder configurar u obtener la llave los cuales son:
-    1.1 Vaya a la página de Google Cloud Platform API & Services para generar credenciales de API para la búsqueda personalizada de Google. Aqui el enlace https://console.developers.google.com/ 
-    1.2 Inicie sesión con su cuenta de Google.
-    1.3 Seleccione o cree un proyecto API para almacenar las credenciales. Nómbrelo con un título específico (por ejemplo, imágenes de Odoo).
-    1.4 En la sección de credenciales, haga clic en Crear credenciales y seleccione Clave API
+* Api de google: Para la api se tienen que seguir una serie de pasos para poder configurar u obtener la llave los cuales son:
+    - Vaya a la página de Google Cloud Platform API & Services para generar credenciales de API para la búsqueda personalizada de Google. Aqui el enlace https://console.developers.google.com/ 
+    - Inicie sesión con su cuenta de Google.
+    - Seleccione o cree un proyecto API para almacenar las credenciales. Nómbrelo con un título específico (por ejemplo, imágenes de Odoo).
+    - En la sección de credenciales, haga clic en Crear credenciales y seleccione Clave API
+
 Y listo una vez echo esto deberia de obtener una llave.¡Guardelo!
 
-* Buscador de api de google (Custom search)
-Para el buscador se siguen estos pasos: Vaya al Motor de Búsqueda Programable de Google y haga clic en Comenzar. Inicie sesión con su cuenta de Google. Seleccione el idioma y el nombre del motor de búsqueda. Nómbrelo con un título específico (por ejemplo, Imágenes de Odoo). Valide el formulario haciendo clic en Crear, después vaya al modo de edición del motor de búsqueda que creó (haciendo clic en Panel de control en la página de confirmación o en el nombre de su motor de búsqueda en la página de inicio). En la pestaña de elementos básicos, asegúrese de habilitar la búsqueda de imágenes, SafeSearch y buscar en toda la web. Este es el enlace para acceder a la web del motor: https://programmablesearchengine.google.com/.
+* Buscador de api de google (Custom search): Para el buscador se siguen estos pasos: 
+    - Vaya al Motor de Búsqueda Programable de Google y haga clic en Comenzar. 
+    - Inicie sesión con su cuenta de Google. Seleccione el idioma y el nombre del motor de búsqueda. 
+    - Nómbrelo con un título específico (por ejemplo, Imágenes de Odoo). 
+    - Valide el formulario haciendo clic en Crear, después vaya al modo de edición del motor de búsqueda que creó (haciendo clic en Panel de control en la página de confirmación o en el nombre de su motor de búsqueda en la página de inicio). 
+    - En la pestaña de elementos básicos, asegúrese de habilitar la búsqueda de imágenes, SafeSearch y buscar en toda la web. Este es el enlace para acceder a la web del motor: https://programmablesearchengine.google.com/.
 
 Y listo una vez echo esto deberia de obtener una el id del buscador programable.¡Guardelo!
 
