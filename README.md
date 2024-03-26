@@ -58,9 +58,9 @@ El motor de busqueda cuenta con bastantes parametros que se le pueden configurar
 0: Habilitado (predeterminado)
 
 * cr: Restringe los resultados de la búsqueda a los documentos que se originan en un país en particular. Puedes usar operadores booleanos en el valor del parámetro cr. Para determinar el país de un documento, la Búsqueda de Google analiza lo siguiente:
-- El dominio de nivel superior (TLD) de la URL del documento
-- la ubicación geográfica de la dirección IP del servidor web
-- Consulta la página Valores de parámetros de país a fin de obtener una lista de valores válidos para este parámetro.
+    - El dominio de nivel superior (TLD) de la URL del documento
+    - la ubicación geográfica de la dirección IP del servidor web
+    - Consulta la página Valores de parámetros de país a fin de obtener una lista de valores válidos para este parámetro.
 
 * cx: Es el id del motor de busqueda programable
 
