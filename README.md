@@ -53,7 +53,8 @@ Para el uso de las funciones del modulo se tiene que hacer lo siguiente:
 * Dirigirse al modulo de inventario/ventas
 * Entrar a la seccion de los productos
 * Si es un nuevo producto:
-    - Dar clic al boton ![Imagen readme 1](static/description/icon.png/)
+    - Dar clic al boton 
+    ![Imagen readme 1](static/description/icon.png)
 
 ## Integración con el Módulo de e-Commerce de Odoo 16
 Las imágenes asociadas a los productos se integran automáticamente con el módulo de e-commerce de Odoo 16, proporcionando una experiencia visual completa para los clientes.
