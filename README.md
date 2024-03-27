@@ -53,11 +53,28 @@ Para el uso de las funciones del modulo se tiene que hacer lo siguiente:
 * Dirigirse al modulo de inventario/ventas
 * Entrar a la seccion de los productos
 * Si es un nuevo producto:
-    - Dar clic al boton 
+    - Dar clic al boton nuevo
+    - Dar Rellenar los datos (Muy importante el codigo de barras)
+    - Dar clic en Cargar imagenes
+    - Dirigirse a la pestaña de ventas
+    - Dar clic en el boton "Agregar un archivo multimedia", en el cual se mostraran las imagenes que nosotros optenemos de la api
+    - Seleccionar o eliminar las imagenes que nosotros deseemos
+    - Dar clic en el boton seleccionar
+    - Guardar cambios
+
+* Si es un nuevo ya existente:
+    - Dar clic al producto
+    - Verificar los datos del producto (Muy importante el codigo de barras)
+    - Dar clic en Cargar imagenes
+    - Dirigirse a la pestaña de ventas
+    - Dar clic en el boton "Agregar un archivo multimedia", en el cual se mostraran las imagenes que nosotros optenemos de la api
+    - Seleccionar o eliminar las imagenes que nosotros deseemos
+    - Dar clic en el boton seleccionar
+    - Guardar cambios
 
 
 
-![Imagen readme 1](static/description/nuevo.png)
+<!-- ![Imagen readme 1](static/description/nuevo.png) -->
 
 ## Integración con el Módulo de e-Commerce de Odoo 16
 Las imágenes asociadas a los productos se integran automáticamente con el módulo de e-commerce de Odoo 16, proporcionando una experiencia visual completa para los clientes.
