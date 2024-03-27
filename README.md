@@ -36,7 +36,7 @@ Y listo una vez echo esto deberia de obtener una llave.¡Guardelo!
 
 Y listo una vez echo esto deberia de obtener una el id del buscador programable.¡Guardelo!
 
-
+# Uso
 
 ## Instalación
 * Clona o descarga el repositorio del módulo.
@@ -48,10 +48,13 @@ Y listo una vez echo esto deberia de obtener una el id del buscador programable.
 * Una vez instalado, dirígete a la configuración de Odoo. Busca el menú de configuración del módulo de imágenes de productos.
 * Completa los parámetros de la API de Google Custom Search, incluyendo la API Key, ID del buscador, número de imágenes a obtener, tipo de archivo y tamaño de imagen.
 
-## Actualización de Imágenes Principales de Productos
-En la vista de productos, se proporciona un botón "Traer imágenes" que permite actualizar la imagen principal de un producto basado en su nombre utilizando la API de Google Custom Search.
-## Carga de Imágenes Adicionales
-Además de la imagen principal, este módulo permite cargar múltiples imágenes adicionales para cada producto. Utilizando el código de barras del producto, el sistema realizará una búsqueda y cargará las imágenes correspondientes.
+## Modo de utilizacion
+Para el uso de las funciones del modulo se tiene que hacer lo siguiente:
+* Dirigirse al modulo de inventario/ventas
+* Entrar a la seccion de los productos
+* Si es un nuevo producto:
+    - Dar clic al boton ![Imagen readme 1](static/description/icon.png/)
+
 ## Integración con el Módulo de e-Commerce de Odoo 16
 Las imágenes asociadas a los productos se integran automáticamente con el módulo de e-commerce de Odoo 16, proporcionando una experiencia visual completa para los clientes.
 
@@ -101,6 +104,7 @@ El motor de busqueda cuenta con bastantes parametros que se le pueden configurar
     - "black"
     - "blue"
     - "white"
+
 Entre otros
 
 * imgSize: Muestra imágenes de un tamaño especificado. Los valores aceptables son:
